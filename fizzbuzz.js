@@ -1,7 +1,5 @@
 export default function fizzbuzz() {
   for (let i = 0; i <= 100; i++) {
-    if (i % 15 === 0) {
-      console.log("FizzBuzz")
-    }
+    i % 3 === 0 && i % 5 === 0 ? console.log("FizzBuzz") : null
   }
 }
